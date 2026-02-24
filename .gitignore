@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variable files (never commit secrets)
+*.tfvars
+!terraform.tfvars.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
